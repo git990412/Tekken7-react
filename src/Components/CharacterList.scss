@@ -1,0 +1,30 @@
+.CharacterList{
+    display:flex;
+    flex-direction: column;
+    .Jin{
+        height:50px;
+        width:100%;
+        background-image:url(Jin.png);
+        background-color: rgb(32, 28, 28);
+        background-position: -40px -40px;
+        background-size:50%;
+        background-repeat:no-repeat;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        color:white;
+        font-weight:bolder;
+        font-size:1.5rem;
+        text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+        border:1px solid black;
+        box-shadow:1px 1px 2px inset darkgray, -1px -1px 2px inset darkgray;
+        &:hover{
+            box-shadow:1px 1px 1px inset red, 0px -1px 20px inset red;
+        }
+        cursor:pointer;
+    }
+}
